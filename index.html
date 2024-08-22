@@ -1,1 +1,264 @@
-
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://uploads.scratch.mit.edu/get_image/user/117004554_192x192.png"
+    />
+    <link 
+      rel="stylesheet" 
+      href="styles.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link 
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" 
+    />
+    <title>Le_PC_qui_parle - page personnelle</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" id="haut">
+        <nav class="navbar navbar-expand-lg bg-primary fixed-top" data-bs-theme="dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/lepcquiparle/"
+            ><img src="https://i.imgur.com/aBl6AP8.png"
+            />LeNetQuiParle</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarColor01"
+              aria-controls="navbarColor01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="/lepcquiparle/">Acceuil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#a_propos">À propos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#references">Références</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#projets">Projets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="/python/">Tutoriels python</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-primary mb-3" id="a_propos">
+            <div class="card-body">
+              <h4 class="card-title">À propos de moi</h4>
+              <p class="card-text">
+                Je suis un scratcheur passioné par la programmation, la
+                robotique &#40;tout ce qui est en rapport avec l'informatique&#41;, et les mathématiques.
+                J'adore créer des jeux et des applications pour me simplifier la vie, m'amuser, me distraire
+                ou juste pour faire passer le temps. Je programme avec plusieurs languages de programmation
+                à part scratch, dont :
+                <div class="list-group">
+                  <a class="list-group-item list-group-item-action"><i class="bi bi-dot"></i>HTML;</a>
+                  <a class="list-group-item list-group-item-action"><i class="bi bi-dot"></i>CSS;</a>
+                  <a class="list-group-item list-group-item-action"><i class="bi bi-dot"></i>JavaScript;</a>
+                  <a class="list-group-item list-group-item-action"><i class="bi bi-dot"></i>et Python.</a>
+                </div>
+              </p>
+              <p class="card-text">
+                <h4>Pourquoi Le_PC_qui_parle ?</h4>
+                J'ai choisi le pseudonyme "Le_PC_qui_parle" car j'aime l'informatique &#40;Le_PC&#41; 
+                et que je suis un humain &#40;logique&#41; &#40;qui_parle&#41;.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card border-primary mb-3" id="references">
+            <div class="card-body">
+              <h4 class="card-title">Références</h4>
+              <p class="card-text">
+                Voici quelques-unes des ressources que j'utilise pour apprendre et pratiquer la programmation :
+              </p>
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Nom</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Language&#40;s&#41;</th>
+                    <th scope="col">Utilisé pour</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a href="https://turbowarp.org" target="_blank">Turbowarp</a></td>
+                    <td>site web</td>
+                    <td>Scratch</td>
+                    <td>Coder</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://penguinmod.com" target="_blank">Penguinmod</a></td>
+                    <td>site web</td>
+                    <td>Scratch</td>
+                    <td>Coder</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://mimo.org" target="_blank">Mimo</a></td>
+                    <td>site web/application</td>
+                    <td>Python, Html, Css, Javascript, TypeScript, Sql, Swift</td>
+                    <td>apprendre /coder</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://www.pourlesnuls.fr" target="_blank">Guides "Pour les Nuls"</a></td>
+                    <td>livres</td>
+                    <td>Tout &#40;ou presque&#41;</td>
+                    <td>apprendre</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://codesandbox.io" target="_blank">Code Sandbox</a></td>
+                    <td>site web</td>
+                    <td>Tout, même les images, les documents texte, etc.</td>
+                    <td>coder</td>
+                  </tr>
+                  <tr>
+                    <td><a href="codepen.io" target="_blank">Codepen</a></td>
+                    <td>site web</td>
+                    <td>Html, Css, Javascript</td>
+                    <td>coder</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://developer.mozilla.org" target="_blank">Documentation MDN</a></td>
+                    <td>site web</td>
+                    <td>Tout &#40;ou presque&#41;</td>
+                    <td>apprendre /coder</td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://brackets.io" target="_blank">Brackets</a></td>
+                    <td>application</td>
+                    <td>Tout, même les images, les documents texte, etc.</td>
+                    <td>coder</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="projets">
+            <div class="card border-primary mb-3">
+              <div class="card-body">
+                <h4 class="card-title">Projets</h4>
+                <p class="card-text">Voici quelques-uns de mes projets. Vous pouvez aussi jouer à 2 de mes 
+                  jeux directement sur cette page, dont 1 fait en collaboration avec mon ami 
+                  <a href="https://scratch.mit.edu/users/paulux_1206">paulux_1206</a>.
+                </p>
+                <div class="projet">
+                  <a href="https://scratch.mit.edu/projects/876978209/" target="_blank">
+                    <img src="https://uploads.scratch.mit.edu/get_image/project/876978209_432x324.png" class="img-thumbnail zoom" width="250px"/>
+                    <br />
+                    Platformer - Noir et Blanc
+                  </a>
+                </div>
+                <div class="projet">
+                  <a href="https://scratch.mit.edu/projects/882568806/" target="_blank">
+                    <img src="https://uploads.scratch.mit.edu/get_image/project/882568806_432x324.png" class="img-thumbnail zoom" width="250px"/>
+                    <br />
+                    Raycaster en 3D
+                  </a>
+                </div>
+                <div class="projet">
+                  <a href="https://scratch.mit.edu/projects/900723169/" target="_blank">
+                    <img src="https://uploads.scratch.mit.edu/get_image/project/900723169_432x324.png" class="img-thumbnail zoom" width="250px"/>
+                    <br />
+                    Jeu zombie shooter
+                  </a>
+                </div>
+                <br />
+                <div class="projet">
+                  <h5>Scratch dans scratch</h5>
+                  <iframe 
+                    src="https://scratch.mit.edu/projects/937648480/embed" 
+                    allowtransparency="true" 
+                    width="485" height="402" 
+                    frameborder="0" scrolling="no" 
+                    allowfullscreen>
+                  </iframe>
+                </div>
+                <div class="projet">
+                  <h5>Zombie shooter fait avec paulux_1206</h5>
+                  <iframe 
+                    src="https://scratch.mit.edu/projects/921108053/embed" 
+                    allowtransparency="true" 
+                    width="485" height="402" 
+                    frameborder="0" scrolling="no" 
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card border-primary mb-3">
+              <div class="card-body">
+                <h4 class="card-title">Projet inédit !</h4>
+                <p class="card-text">
+                  Ce jeu, "Flappy Triangle", n'est disponible nulle part allieurs qu'ici. C'est comme flappy bird, 
+                  mais avec un triangle, et le jeu peut être utilisé aussi sur les téléphones.
+                </p>
+                <h5 class="card-text">
+                  Jouer
+                </h5>
+                <p class="card-text">
+                  Pour jouer au jeu, vous devez le lancer en utilisant un navigateur tel que chrome, opera, safari, firefox 
+                  etc. ou, si vous êtes sur mobile, vous pouvez l'ouvrir avec la visionneuse html &#40;mauvaise idée 
+                  selon moi&#41;.
+                </p>
+                <ul class="list-group">
+                  <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                    <a href="flappy_tiangle.html" download="Flappy Triangle.html">Télécharger &#40;.html&#41;</a>
+                  </li>
+                  <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center disabled">
+                    Jouer en ligne
+                    <span class="badge bg-danger rounded-pill"><i class="bi bi-database-x"></i>  Serveur Penguinmod en panne</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#haut">retour en haut</a>
+      <br />
+      <br />
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
