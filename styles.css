@@ -1,1 +1,9 @@
+.zoom:hover {
+  transform: scale(1.05);
+  margin: 3px;
+}
 
+.projet {
+  float: left;
+  margin-right: 5px;
+}
