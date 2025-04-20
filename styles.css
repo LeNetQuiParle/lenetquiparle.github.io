@@ -8,6 +8,6 @@
   margin-right: 5px;
 }
 
-table {
-  overflow-x: scroll;
+.table {
+  overflow-x: auto;
 }
